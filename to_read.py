@@ -2,7 +2,7 @@ print("================================")
 print("      MANA TO-READ PROGRAMMA")
 print("================================")
 print("Grāmatu saraksts")
-
+# Gramatu saraksts ar nosaukumu un lasisanas statusu
 books = [
     ["Fourth Wing", "nav izlasīta"],
     ["Dune", "izlasīta"],
