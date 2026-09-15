@@ -45,3 +45,5 @@ elif choice == "4":
         print("Tādas grāmatas nav!")
 elif choice == "5":
     print("Programma beidzas.")
+else:
+    print("Nepareiza izvēle!")
