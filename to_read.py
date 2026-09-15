@@ -8,6 +8,7 @@ books = [
 ]
 
 print()
+print("===== IZVĒLNE =====")
 print("1. Parādīt grāmatas")
 print("2. Pievienot grāmatu")
 print("3. Atzīmēt kā izlasītu")
