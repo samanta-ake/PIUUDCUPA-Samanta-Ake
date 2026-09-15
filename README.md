@@ -2,4 +2,4 @@
 Repository ir izveidots studiju kursa mājasdarba vajadzībām.
 Šis ir mans To-Read programmas projekts.
 Autors: Samanta Āķe
-Mājas darbs pabeigts.
+Mājas darbs pabeigts!
