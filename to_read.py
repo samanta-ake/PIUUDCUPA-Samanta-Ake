@@ -32,7 +32,7 @@ elif choice == "2":
         print("Grāmatas nosaukums nav ievadīts!")
     else:
         books.append([new_book, "nav izlasīta"])
-        print("Jauna grāmata pievienota!")
+        print("Grāmata veiksmīgi pievienota!")
 elif choice == "3":
     book_number = int(input("Kuras grāmatas numuru atzīmēt kā izlasītu? "))
 
