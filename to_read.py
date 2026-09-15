@@ -17,8 +17,11 @@ print("5. Iziet")
 choice = input("Izvēlies darbību: ")
 
 if choice == "1":
-    for i in (len(books)):
-        print(i + 1, "-", books[i][0], "-", books[i][1])
+    if len(books) == 0:
+        print("Grāmatu saraksts ir tukšs!")
+    else:
+        for i in range(len(books)):
+            print(i + 1, "-", books[i][0], "-", books[i][1])
 elif choice == "2":
     new_book = input("Ievadi grāmatas nosaukumu: ")
     books.append([new_book, "nav izlasīta"])
