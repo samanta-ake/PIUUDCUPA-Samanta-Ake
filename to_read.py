@@ -27,6 +27,14 @@ if choice == "1":
             print(i + 1, "-", books[i][0], "-", books[i][1])
 
         print("Kopā grāmatas:", len(books))
+
+        read_books = 0
+
+        for book in books:
+            if book[1] == "izlasīta":
+                read_books += 1
+
+        print("Izlasītas grāmatas:", read_books)
 elif choice == "2":
     new_book = input("Ievadi jaunās grāmatas nosaukumu: ")
 
