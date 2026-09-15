@@ -1,4 +1,6 @@
-print("===== MANA TO-READ PROGRAMMA =====")
+print("================================")
+print("      MANA TO-READ PROGRAMMA")
+print("================================")
 print("Grāmatu saraksts")
 
 books = [
