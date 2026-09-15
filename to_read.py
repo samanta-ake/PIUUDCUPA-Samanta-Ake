@@ -10,3 +10,7 @@ print("Manas grāmatas:")
 
 for book in books:
     print("-", book[0], "-", book[1])
+
+    print()
+print("1. Parādīt grāmatas")
+print("2. Iziet")
