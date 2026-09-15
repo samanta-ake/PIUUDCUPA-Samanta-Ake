@@ -26,8 +26,12 @@ elif choice == "2":
     print("Pievienotā grāmata:", new_book)
 elif choice == "3":
     book_number = int(input("Kuras grāmatas numuru atzīmēt kā izlasītu? "))
-    books[book_number - 1][1] = "izlasīta"
-    print("Grāmata atzīmēta kā izlasīta!")
+
+    if book_number >= 1 and book_number <= len(books):
+        books[book_number - 1][1] = "izlasīta"
+        print("Grāmata atzīmēta kā izlasīta!")
+    else:
+        print("Tādas grāmatas nav!")
 elif choice == "4":
     book_number = int(input("Kuras grāmatas numuru dzēst? "))
     books.pop(book_number - 1)
