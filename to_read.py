@@ -10,7 +10,8 @@ print()
 print("1. Parādīt grāmatas")
 print("2. Pievienot grāmatu")
 print("3. Atzīmēt kā izlasītu")
-print("4. Iziet")
+print("4. Dzēst grāmatu")
+print("5. Iziet")
 
 choice = input("Izvēlies darbību: ")
 
@@ -26,3 +27,9 @@ elif choice == "3":
     book_number = int(input("Kuras grāmatas numuru atzīmēt kā izlasītu? "))
     books[book_number - 1][1] = "izlasīta"
     print("Grāmata atzīmēta kā izlasīta!")
+elif choice == "4":
+    book_number = int(input("Kuras grāmatas numuru dzēst? "))
+    books.pop(book_number - 1)
+    print("Grāmata izdzēsta!")
+elif choice == "5":
+    print("Programma beidzas.")
