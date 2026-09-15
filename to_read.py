@@ -20,3 +20,4 @@ elif choice == "2":
     new_book = input("Ievadi grāmatas nosaukumu: ")
     books.append([new_book, "nav izlasīta"])
     print("Grāmata pievienota!")
+    print("Pievienotā grāmata:", new_book)
