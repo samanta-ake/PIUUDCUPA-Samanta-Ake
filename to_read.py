@@ -34,7 +34,11 @@ elif choice == "3":
         print("Tādas grāmatas nav!")
 elif choice == "4":
     book_number = int(input("Kuras grāmatas numuru dzēst? "))
-    books.pop(book_number - 1)
-    print("Grāmata izdzēsta!")
+
+    if book_number >= 1 and book_number <= len(books):
+        books.pop(book_number - 1)
+        print("Grāmata izdzēsta no saraksta!")
+    else:
+        print("Tādas grāmatas nav!")
 elif choice == "5":
     print("Programma beidzas.")
