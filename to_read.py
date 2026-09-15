@@ -2,4 +2,7 @@ print("===== MANA TO-READ PROGRAMMA =====")
 
 books = ["Fourth Wing", "Dune", "After"]
 
-print(books)
+print("Manas grāmatas:")
+
+for book in books:
+    print("-", book)
