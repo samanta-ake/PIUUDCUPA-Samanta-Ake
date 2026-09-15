@@ -25,6 +25,8 @@ if choice == "1":
     else:
         for i in range(len(books)):
             print(i + 1, "-", books[i][0], "-", books[i][1])
+
+        print("Kopā grāmatas:", len(books))
 elif choice == "2":
     new_book = input("Ievadi jaunās grāmatas nosaukumu: ")
 
