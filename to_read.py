@@ -26,10 +26,13 @@ if choice == "1":
         for i in range(len(books)):
             print(i + 1, "-", books[i][0], "-", books[i][1])
 elif choice == "2":
-    new_book = input("Ievadi grāmatas nosaukumu: ")
-    books.append([new_book, "nav izlasīta"])
-    print("Grāmata pievienota!")
-    print("Pievienotā grāmata:", new_book)
+    new_book = input("Ievadi jaunās grāmatas nosaukumu: ")
+
+    if new_book.strip() == "":
+        print("Grāmatas nosaukums nav ievadīts!")
+    else:
+        books.append([new_book, "nav izlasīta"])
+        print("Jauna grāmata pievienota!")
 elif choice == "3":
     book_number = int(input("Kuras grāmatas numuru atzīmēt kā izlasītu? "))
 
