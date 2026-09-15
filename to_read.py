@@ -51,6 +51,6 @@ elif choice == "4":
         print("Tādas grāmatas nav!")
 elif choice == "5":
     print()
-    print("Paldies, ka izmantoji To-Read programmu!")
+    print("Paldies, ka izmantoji To-Read programmu<3!")
 else:
     print("Nepareiza izvēle!")
